@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.hardcore</groupId>
+    <artifactId>hardcore-parent</artifactId>
+    <version>${revision}</version>
+  </parent>
+  <artifactId>hardcore-api</artifactId>
+  <dependencies>
+	  <dependency>
+		  <groupId>org.spigotmc</groupId>
+		  <artifactId>spigot-api</artifactId>
+		  <version>1.17.1-R0.1-SNAPSHOT</version>
+		  <scope>provided</scope>
+	  </dependency>
+	  <dependency>
+  		<groupId>com.gamerduck</groupId>
+  		<artifactId>ConfigAPI</artifactId>
+  		<version>1.0</version>
+	  </dependency>
+    <dependency>
+        <groupId>com.github.MilkBowl</groupId>
+        <artifactId>VaultAPI</artifactId>
+        <version>1.7</version>
+        <scope>provided</scope>
+    </dependency>
+	<dependency>
+    <groupId>io.github.classgraph</groupId>
+    <artifactId>classgraph</artifactId>
+    <version>4.8.122</version>
+</dependency>
+  </dependencies>
+</project>

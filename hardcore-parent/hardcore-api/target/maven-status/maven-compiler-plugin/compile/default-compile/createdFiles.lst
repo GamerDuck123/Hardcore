@@ -1,0 +1,6 @@
+com\hardcore\handlers\ListenerHandler.class
+com\hardcore\interfaces\ICommand.class
+com\hardcore\handlers\CommandHandler.class
+com\hardcore\annotations\Command.class
+com\hardcore\annotations\Listener.class
+com\hardcore\interfaces\IListener.class
