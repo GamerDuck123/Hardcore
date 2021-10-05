@@ -1,0 +1,3 @@
+com\hardcore\commands\TestCommand.class
+com\hardcore\listeners\TestListener.class
+com\hardcore\HardCoreMain.class

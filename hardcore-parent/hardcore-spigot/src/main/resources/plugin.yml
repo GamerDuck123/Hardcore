@@ -1,0 +1,8 @@
+name: HardCore
+author: GamerDuck123
+main: com.hardcore.HardCoreMain
+version: ${project.version}
+api-version: 1.17
+softdepend: [Vault]
+description: >
+             A plugin that turns hardcore mode up to 11
